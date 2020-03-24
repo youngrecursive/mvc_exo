@@ -11,12 +11,13 @@
 
     <header>
       <nav>
-          <ul>
+            <ul>
               <li><a href="<?= $view->path('home'); ?>">Home</a></li>
               <li><a href="<?= $view->path('addproduct'); ?>">Ajouter un produit</a></li>
               <li><a href="<?= $view->path('addabonnee'); ?>">Créer un compte</a></li>
               <li><a href="<?= $view->path('listabonnee'); ?>">Voir les abonnées</a></li>
               <li><a href="<?= $view->path('listproducts'); ?>">Voir le catalogue</a></li>
+              <li><a href="<?= $view->path('addborrow'); ?>">Emprunter</a></li>
           </ul>
       </nav>
     </header>

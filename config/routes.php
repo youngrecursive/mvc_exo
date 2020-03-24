@@ -16,4 +16,7 @@ $routes = array(
     array('singleabonnee','abonnees','single',array('id')),
     array('updateabonnee','abonnees','update',array('id')),
     array('deleteabonnee','abonnees','delete',array('id')),
+
+    // Borrow
+    array('addborrow','borrows','add'),
 );
